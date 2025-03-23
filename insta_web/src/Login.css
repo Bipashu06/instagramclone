@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Noto+Sans+Warang+Citi&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.container img{
+    display: block;
+    width: 390px;
+    height: 570px;
+    margin: 40px 30px 10px 0px;
+}
+.login_section{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #DBDBDB;
+    border-radius: 2px;
+}
+.login_head{
+    font-size: 55px;
+    font-family: "Grand Hotel", cursive;
+    padding: 30px 0px;
+    font-weight: 500;
+    color: #262626;
+}
+
+input[type="text"], input[type="password"]{
+    margin: 4px 0px;
+    padding: 9px 0px 7px 8px;
+    width: 73%;
+    border: 1px solid #DBDBDB;
+    font-size: 14px;
+}
+input[type="text"]:focus, input[type="password"]:focus{
+   outline: none;
+   border: 1px solid #b1b1b1;
+}
+input[type="text"]::placeholder, input[type="password"]::placeholder{
+   font-size: 12px;
+   font-family: "Roboto", sans-serif;
+
+}
+.login_btn{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    background-color: #0095F6;
+    border: none;
+    color: rgb(255, 255, 255);
+    width: 77%;
+    padding: 10px 0px;
+    border-radius: 6px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+#or{
+    position: relative;
+    color: #888888;
+    margin-top: 25px;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+#or::before{
+    content: '';
+    position: absolute;
+    height: 1px;
+    background-color: #DBDBDB;
+    top: 50%;
+    width: 100px;
+    transform: translate(-120%);
+}
+#or::after{
+    content: '';
+    position: absolute;
+    height: 1px;
+    background-color: #DBDBDB;
+    top: 50%;
+    width: 100px;
+    transform: translate(20%);
+}
+a{
+    text-decoration: none;
+}
+#facebook_link{
+    color: #385185;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    margin-top: 28px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    word-spacing: 2px;
+    font-size: 14px;
+}
+#facebook_icon{
+    width: 22px;
+    height: auto;
+    margin: 0 4px;
+}
+#forgot{
+    color: #032a4e;
+    font-size: 11px;
+    font-family: "Noto Sans Warang Citi", sans-serif;
+    margin: 16px 0px 25px 0px;
+}
+.sign_up{
+    font-family: "Roboto", sans-serif;
+    border: 1px solid #DBDBDB;
+    padding: 20px ;
+    text-align: center;
+    margin-top: 10px;
+}
+.signup_btn{
+    color: #4FC0FB;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.sign_up p{
+    font-size: 14px;
+}
+.get_app{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+}
+.get_app_badges{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 14px;
+}
+.get_app_badges img:first-child{
+  width: 135px;
+  height: 42px;
+  margin: 0 5px;
+}
+.get_app_badges img:nth-child(2){
+  width: 110px;
+  height: 40px;
+  margin: 0 5px;
+}
+.get_app p{
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #737373;
+    font-size: 12px;
+    padding: 50px 0px;
+}
+.footer_links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: "Roboto", sans-serif;
+}
+.footer_links a{
+    padding: 8px 8px;
+    color: #737373;
+}
+.copyright_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    padding-top: 20px;
+}
+.copyright_section select{
+    border: none;
+    color: #737373;
+    font-size: 12px;
+    width: 62px;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+
+
+
+#curved_image{
+    border-radius: 50%;
+    width: 102px;
+    height: 102px;
+    margin: auto;
+}
+#continue_as{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    background-color: #0095F6;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    border-radius: 6px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+#not_user{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin: 30px 0px;
+}
+#not_user a{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #4FC0FB;
+    font-size: 14px;
+    font-weight: 600;
+}
+@media (max-width: 801px){
+    #login_section_1{
+        margin-top: 100px;
+    }
+}
+@media (max-width: 425px){
+    
+    form{
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+}

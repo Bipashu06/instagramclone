@@ -1,0 +1,142 @@
+.post-container{
+    max-width: 470px;
+    width: 100%;
+    padding: 20px 0px;
+    font-family: "Roboto", sans-serif;
+    border: none;
+    border-bottom: 1px solid #DBDBDB;
+}
+.post-header{
+    display: flex;
+    justify-content: space-between;
+}
+.creator-profile{
+    display: flex;
+    align-items: flex-start;
+}
+.creator-info-container p{
+    font-size: 14px;
+    padding: 4px;
+    font-weight: 500;
+}
+
+#location{
+    font-weight: 400;
+    font-size: 12px;
+}
+#posted_time{
+    font-weight: 400;
+    color: #949494;
+}
+#follow_btn{
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    color: #0F9BF6;
+    font-weight: 500;
+}
+#follow_btn:hover{
+    color: #1e5d99;
+}
+.photo_post{
+    max-height: 468px;
+    max-width: 468px;
+    height: 100vw;
+    width: 100vw;
+    margin: 8px 0px;
+    overflow: hidden;
+}
+.photo_post img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+.reel_post{
+    max-height: 585px;
+    max-width: 468px;
+    width: 100vw;
+    height: calc( 1.25 * 100vw);
+    margin: 8px 0px;
+    background-color: black;
+}
+.reel_post video{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+.like_comment_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.part_1 svg{
+    padding: 8px 8px 0px 8px;
+}
+.like_comment_section svg:hover{
+    color: #838383;
+}
+.caption-conatiner{
+    display: block;
+
+}
+#number_of_likes{
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 6px 0px;
+    display: block;
+}
+#caption{
+    font-size: 14px;
+    padding: 6px 0px;
+}
+#name_in_caption{
+    font-size: 14px;
+    font-weight: 600;
+}
+#view_comments_btn{
+    color: #949494;
+    font-size: 14px;
+}
+.add_comment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.emoji_post_conatainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#comment_post{
+    font-size: 15px;
+    color: #0F9BF6;
+    font-weight: 500;
+    padding: 10px;
+    display: inline-block;
+}
+#comment_input{
+    border: none;
+}
+@media (max-width: 785px){
+    .post-header{
+        padding: 0px 12px;
+    }
+    .like_comment_section{
+        padding: 0px 8px;
+    }
+   #number_of_likes{
+        padding: 6px 16px;
+    }
+    #name_in_caption{
+        padding-left: 16px;
+    }
+    #view_comments_btn{
+        padding: 0px 16px;
+    }
+}
+@media (max-width: 488px){
+    .add_comment{
+        display: none;
+    }
+}

@@ -1,0 +1,17 @@
+.mobile-bottom-nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border: none;
+    border-top: 1px solid #DBDBDB;
+    padding: 10px 0px;
+    z-index: 4;
+}
+@media (min-width: 786px){
+    .mobile-bottom-nav{
+        display: none;
+    }
+}

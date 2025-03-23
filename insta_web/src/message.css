@@ -1,0 +1,17 @@
+.message-container{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.message{
+    background-color: #3797F0;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    border-radius: 20px;
+    font-weight: 400;
+    width: max-content;
+    padding: 7px 12px;
+}

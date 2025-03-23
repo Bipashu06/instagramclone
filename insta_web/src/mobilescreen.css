@@ -1,0 +1,24 @@
+.mobiles-container{
+    width: 400px;
+    height: 570px;
+    position: relative;
+    margin: 0px 50px 10px 0px;
+}
+#screen{
+    display: block;
+    margin: auto;
+}
+#pic{
+    position: absolute;
+    top: 4.5%;
+    left: 38%;
+    width: 250px;
+    height: 534px;
+    margin: 0;
+}
+
+@media (max-width: 800px){
+    .mobiles-container{
+        display: none;
+    }
+}
